@@ -9,8 +9,22 @@ body{
 
 h1{
     font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: 'Montserrat-Bold';
     font-size: 3rem;
     line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat-Bold"; 
+}
+
+p{
+    color: #8f8f8f;
 }
 
 .container-fluid{
@@ -18,7 +32,7 @@ h1{
 }
 
 .navbar{
-    padding-bottom: 0 0 4.5rem;
+    padding-bottom: 4.5rem;
 }
 
 .nav-item{
@@ -34,4 +48,54 @@ h1{
     font-family: "Ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
+}
+
+.download-button{
+   margin: 5%  3%  5%  0;
+}
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+}
+#features{
+    padding:  7% 15% ;
+}
+
+.feature-box{
+    text-align: center;
+    
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
 }
