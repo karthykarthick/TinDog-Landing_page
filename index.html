@@ -13,20 +13,31 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>TinDog</title>
   </head>
 
   <body>
     <section id="title">
+      <div class="container-fluid">
+
+     
       <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <a
           href="#"
           target="_blank"
           rel="noopener noreferrer"
           class="navbar-brand"
-          >Tindog</a
+          >tindog</a
         >
         <button
           class="navbar-toggler"
@@ -56,14 +67,17 @@
 
       <!-- Title -->
 
-      <div>
-        <h1>Meet new and interesting dogs nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg"> <i class="fab fa-apple"> Download </i></button>
+          <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"> Download</i></button>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/iphone6.png" alt="iphone-mockup" />
+        </div>
       </div>
-      <div>
-        <img src="images/iphone6.png" alt="iphone-mockup" />
-      </div>
+    </div>
     </section>
 
     <!-- Features -->
